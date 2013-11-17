@@ -27,7 +27,7 @@ def calculate(value_one, operation, value_two):
     else:
         raise ValueError("Invalid operation %s" % (operation))
 
-    return result
+    return str(result)
 
 
 

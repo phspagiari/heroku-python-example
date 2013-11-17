@@ -16,13 +16,13 @@ def health():
 def calculate(value_one, operation, value_two):
     value_one = int(value_one)
     value_two = int(value_two)
-    if operation = "sum":
+    if operation == "sum":
         result = value_one + value_two
-    elif operation = "sub":
+    elif operation == "sub":
         result = value_one - value_two
-    elif operation = "mult":
+    elif operation == "mult":
         result = value_one * value_two
-    elif operation = "div":
+    elif operation == "div":
         result = value_one / value_two
     else:
         raise ValueError("Invalid operation %s" % (operation))
